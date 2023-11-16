@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon.com. Spend less. Smile more.</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+   <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="bg-[#E3E6E6] no-src">
+    <header>
+      <nav
+        class="bg-[#131921] h-[60px] w-screen text-white flex items-center justify-evenly"
+      >
+        <div class="h-[50px] w-[100px] group border-transparent">
+          <img
+            src="amazon_logo.png"
+            class="h-[50px] w-[100%] group-hover:border-[1px] group-hover:cursor-pointer group-hover: border-slate-50"
+            alt=""
+          />
+        </div>
+        <div
+          class="border-2 border-transparent hover:border-[1px] hover:cursor-pointer hover:border-slate-50 w-[90px] flex flex-col items-center "
+        >
+          <p class="text-[#ccc] ml-[15px] text-[0.85rem]">Deliver To</p>
+          <div class="text-[1rem]">
+            <i class="fa-solid fa-location-dot"></i> <span>India</span>
+          </div>
+        </div>
+        <!-- div3 -->
+        <div class="flex h-[40px] w-[700px]">
+          <select
+            class="text-black w-[50px] bg-[#f3f3f3] text-center text-[14px] rounded-l-md px-2"
+          >
+            <option value="">All</option>
+          </select>
+          <input
+            type="search"
+            placeholder="Search Amazon"
+            class="w-[100%] outline-none text-[1rem] font-[500] focus:border-[2px] focus:rounded-lg focus:border-yellow-600 text-black"
+          />
+          <div
+            class="flex justify-center items-center w-[45px] text-black text-[1.2rem] rounded-r-md bg-[#febd68]"
+          >
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+        <!-- div4 -->
+        <div
+          class="flex h-[50px] w-[60px] items-center justify-between hover:border-[1px] hover:cursor-pointer hover:border-slate-50 px-2 border-transparent"
+        >
+          <img
+            src="https://cdn.britannica.com/79/4479-050-6EF87027/flag-Stars-and-Stripes-May-1-1795.jpg"
+            class="h-[15px] w-[50%]"
+            alt=""
+          />
+          <div>EN</div>
+        </div>
+        <!-- div5 -->
+        <div
+          class="flex flex-col w-[132px] h-[50px] justify-center items-center hover:border-[1px] hover:cursor-pointer hover:border-slate-50 border-transparent"
+        >
+          <div class="text-[#ffff] text-[12px]">Hello, Signin</div>
+          <div class="font-bold text-[#ffff] text-[14px]">Account & List</div>
+        </div>
+        <div
+          class="flex flex-col w-[76px] h-[50px] justify-center items-center hover:border-[1px] hover:cursor-pointer hover: border-slate-50"
+        >
+          <div class="text-[#ffff] text-[12px]">Returns</div>
+          <div class="font-bold text-[#ffff] text-[14px]">& Orders</div>
+        </div>
+        <div
+          class="flex flex-row w-[80px] h-[50px] justify-around items-center hover:border-[1px] hover:cursor-pointer hover: border-slate-50"
+        >
+          <div class="text-[#ffff] text-[25px]">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <div class="font-bold text-[#ffff] text-[16px]">Cart</div>
+        </div>
+      </nav>
+      <!-- second nav -->
+      <nav class="bg-[#222f3d] h-[40px] flex justify-between items-center w-screen">
+        <div
+          class="flex flex-row text-white justify-evenly w-[600px] items-center h-[40px]"
+        >
+          <div
+            class="flex items-center font-bold justify-between w-[60px] hover:border-[1px] hover:cursor-pointer hover:border-slate-50 h-[40px] px-2 border-transparent"
+          >
+            <i class="fa-solid fa-bars"></i>
+            <p class="text-[14px]">ALL</p>
+          </div>
+          <div
+            class="text-[14px] h-[38px] flex justify-center items-center px-2 text-[#ffff] font-semibold hover:border-[1px] hover:cursor-pointer hover: border-slate-50"
+          >
+            Todays Deals
+          </div>
+          <div
+            class="text-[14px] h-[38px] flex justify-center items-center px-2 text-[#ffff] font-semibold hover:border-[1px] hover:cursor-pointer hover: border-slate-50"
+          >
+            Customer Service
+          </div>
+          <div
+            class="text-[14px] h-[38px] flex justify-center items-center px-2 text-[#ffff] font-semibold hover:border-[1px] hover:cursor-pointer hover: border-slate-50"
+          >
+            Registry
+          </div>
+          <div
+            class="text-[14px] h-[38px] flex justify-center items-center px-2 text-[#ffff] font-semibold hover:border-[1px] hover:cursor-pointer hover: border-slate-50"
+          >
+            Gift Cards
+          </div>
+          <div
+            class="text-[14px] h-[38px] flex justify-center items-center px-2 text-[#ffff] font-semibold hover:border-[1px] hover:cursor-pointer hover: border-slate-50"
+          >
+            Sell
+          </div>
+        </div>
+        <div
+          class="w-[195px] text-[14px] h-[35px] flex justify-center items-center px-2 text-[#ffff] font-bold hover:border-[1px] hover:cursor-pointer hover: border-slate-50"
+        >
+          Shop deals in Electronics
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div
+        class="w-screen bg-slate-950 flex justify-center items-center relative"
+      >
+        <div
+          class="text-5xl text-slate-50 hover:cursor-pointer h-[445px] flex justify-center items-center w-[80px] absolute left-8 active:border active:border-slate-50 active:rounded-lg" id="pvr"
+        >
+          <i class="fa-solid fa-chevron-left"></i>
+        </div>
+        <div class="flex justify-start w-full border h-[450px] overflow-scroll scroll-smooth no-src m-0" id="srl">
+         <img src="new1.png"alt="Product images" class="min-w-full"  />
+        <img src="https://m.media-amazon.com/images/I/61lwJy4B8PL._SX3000_.jpg" alt="Product images"  class="min-w-full"  />
+        <img src="https://m.media-amazon.com/images/I/71Ie3JXGfVL._SX3000_.jpg" alt="Product images"  class="min-w-full" /> 
+        <img src="https://m.media-amazon.com/images/I/61CiqVTRBEL._SX3000_.jpg" alt="Product images" class="min-w-full"  />
+        <img src="https://m.media-amazon.com/images/I/81KkrQWEHIL._SX3000_.jpg" alt="Product images" class="min-w-full"  />
+        <img src="https://m.media-amazon.com/images/I/61zAjw4bqPL._SX3000_.jpg" alt="Product images" class="min-w-full"  />
+
+
+        </div>
+        <div
+          class="text-5xl text-slate-50 hover:cursor-pointer h-[450px] flex justify-center items-center w-[80px] absolute right-8 active:border active:border-slate-50 active:rounded-lg" id="nxt"
+        >
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+      </div>
+
+
+
+      <div
+        class="text-[#0F1111] bg-white text-[0.85rem] py-[15px] px-[14px] text-center font-semibold mx-[20px] mt-[20px]"
+      >
+        You are on amazon.com. You can also shop on Amazon India for millions of
+        products with fast local delivery.<a
+          href="#"
+          class="text-[#007185] hover:text-[#C7511F] text-[0.85rem] font-semibold ml-1 hover:underline"
+        >
+          Click here to go to amazon.in</a
+        >
+
+      </div>
+    </div>
+    </main>
+
+<div class="flex justify-center items-center">
+    <section class="mt-6 flex flex-wrap justify-evenly content-around max-w-[1480px] h-[2100px] bg-[#e2e7e6] lg:h-[2100px]">
+      <!-- box1 -->
+      <div class="bg-white h-[400px] max-w-[23%] pt-[20px] pb-[15px]">
+
+        <!-- main subdiv -->
+        <div class="px-[20px] flex flex-col justify-evenly  h-[100%]">
+          <!-- for head -->
+          <div class="text-[21px] font-semibold "><p>Gaming accessories</p></div>
+           <!-- for img -->
+          <div class="w-[100%] h-[275px] box-border flex flex-row flex-wrap">
+            <!-- img1 -->
+            <div class="w-[50%]">
+              <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Headset_1x._SY116_CB667159060_.jpg" alt="">
+              <p class="text-[12px] text-[#0f1111]">Headsets</p>
+            </div>
+            <!-- img2 -->
+            <div class="w-[50%]">
+              <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Keyboard_1x._SY116_CB667159063_.jpg" alt="">
+              <p class="text-[12px] text-[#0f1111]">Keyboards</p>
+            </div>
+            <!-- img3 -->
+            <div class="w-[50%]">
+              <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Mouse_1x._SY116_CB667159063_.jpg" alt="">
+              <p class="text-[12px] text-[#0f1111]">Computer mice</p>
+            </div>
+            <!-- img4 -->
+            <div class="w-[50%]">
+              <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Chair_1x._SY116_CB667159060_.jpg" alt="">
+              <p class="text-[12px] text-[#0f1111]">Chairs</p>
+            </div>
+
+          </div>
+          <!-- img section close -->
+
+          <div><p class="text-[#007185] text-[13px] hover:text-[#C7511F] hover:underline hover:cursor-pointer">See more</p></div>
+          
+        </div>
+
+      </div>
+
+      <!-- box2 -->
+      <div class="bg-white h-[400px] w-[23%] pt-[20px] pb-[15px]">
+
+        <!-- main subdiv -->
+        <div class="px-[20px] flex flex-col justify-evenly  h-[100%]">
+          <!-- for head -->
+          <div class="text-[21px] font-semibold "><p>Shop deals in Fashion</p></div>
+           <!-- for img -->
+          <div class="w-[100%] h-[275px] box-border flex flex-row flex-wrap justify-between">
+            <!-- img1 -->
+            <div class="w-[49%] h-[40%]">
+              <img src="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2022/SITE_FLIPS/SPR_22/GW/DQC/DQC_APR_TBYB_W_BOTTOMS_1x._SY116_CB624172947_.jpg" class="h-[100%]" alt="">
+              <p class="text-[12px] text-[#0f1111]">Jeans under $50</p>
+            </div>
+            <!-- img2 -->
+            <div class="w-[49%] h-[40%]">
+              <img src="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2022/SITE_FLIPS/SPR_22/GW/DQC/DQC_APR_TBYB_W_TOPS_1x._SY116_CB623353881_.jpg" al class="h-[100%]"t="">
+              <p class="text-[12px] text-[#0f1111]">Tops under $25</p>
+            </div>
+            <!-- img3 -->
+            <div class="w-[49%] h-[40%]">
+              <img src="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2022/SITE_FLIPS/SPR_22/GW/DQC/DQC_APR_TBYB_W_DRESSES_1x._SY116_CB623353881_.jpg" class="h-[100%]" alt="">
+              <p class="text-[12px] text-[#0f1111]">Dresses under $30</p>
+            </div>
+            <!-- img4 -->
+            <div class="w-[49%] h-[40%]">
+              <img src="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2022/SITE_FLIPS/SPR_22/GW/DQC/DQC_APR_TBYB_W_SHOES_1x._SY116_CB624172947_.jpg" a class="h-[100%]"lt="">
+              <p class="text-[12px] text-[#0f1111]">Shoes under $50</p>
+            </div>
+
+          </div>
+          <!-- img section close -->
+
+          <div><p class="text-[#007185] text-[13px] hover:text-[#C7511F] hover:underline hover:cursor-pointer">See more</p></div>
+          
+        </div>
+
+      </div>
+
+      <!-- box3 -->
+      <div class="bg-white h-[400px] w-[23%] pt-[20px] pb-[15px]">
+
+        <!-- main subdiv -->
+        <div class="px-[20px] flex flex-col justify-evenly  h-[100%]">
+          <!-- for head -->
+          <div class="text-[21px] font-semibold leading-[22px] pb-2"><p>Easy updates for elevated spaces</p></div>
+           <!-- for img -->
+          <div class="w-[100%] h-[275px] box-border flex flex-row flex-wrap justify-between">
+            <!-- img1 -->
+            <div class="w-[49%] h-[40%]">
+              <img src="https://images-na.ssl-images-amazon.com/images/G/01/img18/home/2023/Q2/Homepage/2023Q2_GW_EE_LaundryLuxe_D_Quad_186x116._SY116_CB594237035_.jpg" class="h-[100%]" alt="">
+              <p class="text-[12px] text-[#0f1111]">Baskets & hampers</p>
+            </div>
+            <!-- img2 -->
+            <div class="w-[49%] h-[40%]">
+              <img src="https://images-na.ssl-images-amazon.com/images/G/01/img18/home/2023/Q2/Homepage/2023Q2_GW_EE_Kitchen_D_Quad_186x116._SY116_CB594237035_.jpg" al class="h-[100%]"t="">
+              <p class="text-[12px] text-[#0f1111]">Hardware</p>
+            </div>
+            <!-- img3 -->
+            <div class="w-[49%] h-[40%]">
+              <img src="https://images-na.ssl-images-amazon.com/images/G/01/img18/home/2023/Q2/Homepage/2023Q2_GW_EE_AccentFurniture_D_Quad_186x116._SY116_CB594237035_.jpg" class="h-[100%]" alt="">
+              <p class="text-[12px] text-[#0f1111]">Accent furniture</p>
+            </div>
+            <!-- img4 -->
+            <div class="w-[49%] h-[40%]">
+              <img src="https://images-na.ssl-images-amazon.com/images/G/01/img18/home/2023/Q2/Homepage/2023Q2_GW_EE_Hallway_D_Quad_186x116._SY116_CB594237035_.jpg" a class="h-[100%]"lt="">
+              <p class="text-[12px] text-[#0f1111]">Wallpaper & paint</p>
+            </div>
+
+          </div>
+          <!-- img section close -->
+
+          <div><p class="text-[#007185] text-[13px] hover:text-[#C7511F] hover:underline hover:cursor-pointer">See more</p></div>
+          
+        </div>
+
+      </div>
+
+      <!-- box4 -->
+      <div class="h-[400px] w-[23%] pb-[15px] flex flex-col justify-between items-center ">
+        <div class="w-[100%] bg-white h-[145px] pt-[20px] pb-[15px] px-4">
+          <p class="text-[21px] font-semibold">Sign in for the best experience</p>
+          <button class="w-[100%] px-4 py-1 bg-yellow-400 rounded-lg text-[13px] hover:bg-yellow-500">Sign in securely</button>
+        </div>
+        <div class="px-2 mt-[30px]">
+          <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/October/Fuji_D2_45M_en_US_1x._CB418309979_.jpg" alt="">
+        </div>
+      </div>
+
+      <!-- box5 -->
+      <div class="h-[400px] w-[23%] pb-[15px] flex flex-col justify-between items-center">
+        <div class="w-[100%] bg-white h-[145px] pt-[20px] pb-[15px] px-4">
+          <p class="text-[21px] font-semibold">Sign in for the best experience</p>
+          <button class="w-[100%] px-4 py-1 bg-yellow-400 rounded-lg text-[13px] hover:bg-yellow-500">Sign in securely</button>
+        </div>
+        <div class="px-2 mt-[30px]">
+          <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/October/Fuji_D2_45M_en_US_1x._CB418309979_.jpg" alt="">
+        </div>
+      </div>
+
+      <!-- box6 -->
+      <div class="bg-white h-[400px] w-[23%] pt-[20px] pb-[15px]">
+
+        <!-- main subdiv -->
+        <div class="px-[20px] flex flex-col justify-evenly  h-[100%]">
+          <!-- for head -->
+          <div class="text-[21px] font-semibold leading-[22px] pb-2"><p>Refresh your space</p></div>
+           <!-- for img -->
+          <div class="w-[100%] h-[275px] box-border flex flex-row flex-wrap justify-between">
+            <!-- img1 -->
+            <div class="w-[49%] h-[40%]">
+              <img src="https://images-na.ssl-images-amazon.com/images/G/01/launchpad/2023/Gateway/January/DesktopQuadCat_186x116_LP-HP_B08MYX5Q2W_01.23._SY116_CB619238939_.jpg" class="h-[100%]" alt="">
+              <p class="text-[12px] text-[#0f1111]">Dining</p>
+            </div>
+            <!-- img2 -->
+            <div class="w-[49%] h-[40%]">
+              <img src="https://images-na.ssl-images-amazon.com/images/G/01/launchpad/2023/Gateway/January/DesktopQuadCat_186x116_home_B08RCCP3HV_01.23._SY116_CB619238939_.jpg" al class="h-[100%]"t="">
+              <p class="text-[12px] text-[#0f1111]">Home</p>
+            </div>
+            <!-- img3 -->
+            <div class="w-[49%] h-[40%]">
+              <img src="https://images-na.ssl-images-amazon.com/images/G/01/launchpad/2023/Gateway/January/DesktopQuadCat_186x116_kitchen_B0126LMDFK_01.23._SY116_CB619238939_.jpg" class="h-[100%]" alt="">
+              <p class="text-[12px] text-[#0f1111]">Kitchen</p>
+            </div>
+            <!-- img4 -->
+            <div class="w-[49%] h-[40%]">
+              <img src="https://images-na.ssl-images-amazon.com/images/G/01/launchpad/2023/Gateway/January/DesktopQuadCat_186x116_health-beauty_B07662GN57_01.23._SY116_CB619238939_.jpg" a class="h-[100%]"lt="">
+              <p class="text-[12px] text-[#0f1111]">Health and Beauty</p>
+            </div>
+
+          </div>
+          <!-- img section close -->
+
+          <div><p class="text-[#007185] text-[13px] hover:text-[#C7511F] hover:underline hover:cursor-pointer">See more</p></div>
+          
+        </div>
+
+      </div>
+
+      <!-- box7 -->
+      <div class="bg-white h-[400px] w-[23%] pt-[20px] pb-[15px]">
+
+        <!-- main subdiv -->
+        <div class="px-[20px] flex flex-col justify-evenly  h-[100%]">
+          <!-- for head -->
+          <div class="text-[21px] font-semibold leading-[22px] pb-2"><p>Toys Under $30</p></div>
+           <!-- for img -->
+          <div class="w-[100%] h-[275px] box-border flex flex-row flex-wrap justify-between">
+            <img src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2022/img/Amazon_Exports/XCM_CUTTLE_1469244_2584128_379x304_1X_en_US._SY304_CB609318944_.jpg" alt="">
+          </div>
+          <div><p class="text-[#007185] text-[13px] hover:text-[#C7511F] hover:underline hover:cursor-pointer">Shop now</p></div>
+          
+        </div>
+
+      </div>
+
+      <!-- box8 -->
+      <div class="bg-white h-[400px] w-[23%] pt-[20px] pb-[15px]">
+
+        <!-- main subdiv -->
+        <div class="px-[20px] flex flex-col justify-evenly  h-[100%]">
+          <!-- for head -->
+          <div class="text-[21px] font-semibold leading-[22px] pb-2"><p>Health & Personal Care</p></div>
+           <!-- for img -->
+          <div class="w-[100%] h-[275px] box-border flex flex-row flex-wrap justify-between">
+            <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2022/February/DashboardCards/GW_CONS_AUS_HPC_HPCEssentials_CatCard_Desktop1x._SY304_CB627424361_.jpg" alt="">
+          </div>
+          <div><p class="text-[#007185] text-[13px] hover:text-[#C7511F] hover:underline hover:cursor-pointer">Shop now</p></div>
+          
+        </div>
+
+      </div>
+
+      <!-- box9 -->
+      <div class="bg-white h-[400px] w-[23%] pt-[20px] pb-[15px]">
+
+        <!-- main subdiv -->
+        <div class="px-[20px] flex flex-col justify-evenly  h-[100%]">
+          <!-- for head -->
+          <div class="text-[21px] font-semibold leading-[22px] pb-2"><p>New arrivals in Toys</p></div>
+           <!-- for img -->
+          <div class="w-[100%] h-[275px] box-border flex flex-row flex-wrap justify-between">
+            <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_Toys_1X._SY304_CB639759658_.jpg" alt="">
+          </div>
+          <div><p class="text-[#007185] text-[13px] hover:text-[#C7511F] hover:underline hover:cursor-pointer">Shop now</p></div>
+          
+        </div>
+
+      </div>
+
+      <!-- box10 -->
+      <div class="bg-white h-[400px] w-[23%] pt-[20px] pb-[15px]">
+
+        <!-- main subdiv -->
+        <div class="px-[20px] flex flex-col justify-evenly  h-[100%]">
+          <!-- for head -->
+          <div class="text-[21px] font-semibold leading-[22px] pb-2"><p>Discover fashion trends</p></div>
+           <!-- for img -->
+          <div class="w-[100%] h-[275px] box-border flex flex-row flex-wrap justify-between">
+            <img src="https://images-na.ssl-images-amazon.com/images/G/01/softlines/shopbop/ingress/2023/March/mp_20230219_ff_desktopsinglecategory_desktop_379x304_1._SY304_CB612639047_.jpg" alt="">
+          </div>
+          <div><p class="text-[#007185] text-[13px] hover:text-[#C7511F] hover:underline hover:cursor-pointer">Shop now</p></div>
+          
+        </div>
+
+      </div>
+
+      <!-- box11 -->
+      <div class="bg-white h-[400px] w-[23%] pt-[20px] pb-[15px]">
+
+        <!-- main subdiv -->
+        <div class="px-[20px] flex flex-col justify-evenly  h-[100%]">
+          <!-- for head -->
+          <div class="text-[21px] font-semibold leading-[22px] pb-2"><p>For your Fitness Needs</p></div>
+           <!-- for img -->
+          <div class="w-[100%] h-[275px] box-border flex flex-row flex-wrap justify-between">
+            <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_Fitness_1X._SY304_CB639748186_.jpg" alt="">
+          </div>
+          <div><p class="text-[#007185] text-[13px] hover:text-[#C7511F] hover:underline hover:cursor-pointer">Shop now</p></div>
+          
+        </div>
+
+      </div>
+      
+      <!-- box12 -->
+      <div class="bg-white h-[400px] w-[23%] pt-[20px] pb-[15px]">
+
+        <!-- main subdiv -->
+        <div class="px-[20px] flex flex-col justify-evenly  h-[100%]">
+          <!-- for head -->
+          <div class="text-[21px] font-semibold leading-[22px] pb-2"><p>Home & Kitchen Under $30</p></div>
+           <!-- for img -->
+          <div class="w-[100%] h-[275px] box-border flex flex-row flex-wrap justify-between">
+            <img src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2022/img/Amazon_Exports/XCM_CUTTLE_1469391_2584745_379x304_1X_en_US._SY304_CB609304299_.jpg" alt="">
+          </div>
+          <div><p class="text-[#007185] text-[13px] hover:text-[#C7511F] hover:underline hover:cursor-pointer">Shop now</p></div>
+          
+        </div>
+
+      </div>
+
+      <!-- box13 -->
+      <div class="bg-white h-[400px] w-[23%] pt-[20px] pb-[15px]">
+
+        <!-- main subdiv -->
+        <div class="px-[20px] flex flex-col justify-evenly  h-[100%]">
+          <!-- for head -->
+          <div class="text-[21px] font-semibold leading-[22px] pb-2"><p>Shop activity trackers and smartwatches</p></div>
+           <!-- for img -->
+          <div class="w-[100%] h-[275px] box-border flex flex-row flex-wrap justify-between">
+            <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_SmartWatch_1X._SY304_CB639922137_.jpg" alt="">
+          </div>
+          <div><p class="text-[#007185] text-[13px] hover:text-[#C7511F] hover:underline hover:cursor-pointer">Shop now</p></div>
+        </div>
+      </div>
+
+      <!-- box14 -->
+      <div class="bg-white h-[400px] w-[23%] pt-[20px] pb-[15px]">
+
+        <!-- main subdiv -->
+        <div class="px-[20px] flex flex-col justify-evenly  h-[100%]">
+          <!-- for head -->
+          <div class="text-[21px] font-semibold leading-[22px] pb-2"><p>Shop Laptops & Tablets</p></div>
+           <!-- for img -->
+          <div class="w-[100%] h-[275px] box-border flex flex-row flex-wrap justify-between">
+            <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Laptops_379x304_1X_en_US._SY304_CB418608471_.jpg" alt="">
+          </div>
+          <div><p class="text-[#007185] text-[13px] hover:text-[#C7511F] hover:underline hover:cursor-pointer">Shop now</p></div>
+        </div>
+      </div>
+
+       <!-- box15 -->
+       <div class="bg-white h-[400px] w-[23%] pt-[20px] pb-[15px]">
+
+        <!-- main subdiv -->
+        <div class="px-[20px] flex flex-col justify-evenly  h-[100%]">
+          <!-- for head -->
+          <div class="text-[21px] font-semibold leading-[22px] pb-2"><p>Kindle E readers</p></div>
+           <!-- for img -->
+          <div class="w-[100%] h-[275px] box-border flex flex-row flex-wrap justify-between">
+            <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Desktop_Dash_Kindle_1x._SY304_CB639752818_.jpg" alt="">
+          </div>
+          <div><p class="text-[#007185] text-[13px] hover:text-[#C7511F] hover:underline hover:cursor-pointer">Shop now</p></div>
+        </div>
+      </div>
+
+       <!-- box16 -->
+       <div class="bg-white h-[400px] w-[23%] pt-[20px] pb-[15px]">
+
+        <!-- main subdiv -->
+        <div class="px-[20px] flex flex-col justify-evenly  h-[100%]">
+          <!-- for head -->
+          <div class="text-[21px] font-semibold leading-[22px] pb-2"><p>Create with strip lights</p></div>
+           <!-- for img -->
+          <div class="w-[100%] h-[275px] box-border flex flex-row flex-wrap justify-between">
+            <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_StripLighting_379x304_1X_en_US._SY304_CB418597476_.jpg" alt="">
+          </div>
+          <div><p class="text-[#007185] text-[13px] hover:text-[#C7511F] hover:underline hover:cursor-pointer">Shop now</p></div>
+        </div>
+      </div>
+
+      <!-- box17 -->
+      <div class="bg-white h-[400px] w-[23%] pt-[20px] pb-[15px]">
+
+        <!-- main subdiv -->
+        <div class="px-[20px] flex flex-col justify-evenly  h-[100%]">
+          <!-- for head -->
+          <div class="text-[21px] font-semibold leading-[22px] pb-2"><p>Shop Pet supplies</p></div>
+           <!-- for img -->
+          <div class="w-[100%] h-[275px] box-border flex flex-row flex-wrap justify-between">
+            <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_Pets_1X._SY304_CB639746743_.jpg" alt="">
+          </div>
+          <div><p class="text-[#007185] text-[13px] hover:text-[#C7511F] hover:underline hover:cursor-pointer">Shop now</p></div>
+        </div>
+      </div>
+
+      <!-- box18 -->
+      <div class="bg-white h-[400px] w-[23%] pt-[20px] pb-[15px]">
+
+        <!-- main subdiv -->
+        <div class="px-[20px] flex flex-col justify-evenly  h-[100%]">
+          <!-- for head -->
+          <div class="text-[21px] font-semibold leading-[22px] pb-2"><p>Spring new arrivals</p></div>
+           <!-- for img -->
+          <div class="w-[100%] h-[275px] box-border flex flex-row flex-wrap justify-between">
+            <img src="https://images-na.ssl-images-amazon.com/images/G/01/softlines/shopbop/ingress/2023/mp_20230210_newarrivals_desktopsinglecategory_desktop_379x304._SY304_CB613668625_.jpg" alt="">
+          </div>
+          <div><p class="text-[#007185] text-[13px] hover:text-[#C7511F] hover:underline hover:cursor-pointer">Shop now</p></div>
+        </div>
+      </div>
+
+      <!-- box19 -->
+      <div class="bg-white h-[400px] w-[23%] pt-[20px] pb-[15px]">
+
+        <!-- main subdiv -->
+        <div class="px-[20px] flex flex-col justify-evenly  h-[100%]">
+          <!-- for head -->
+          <div class="text-[21px] font-semibold leading-[22px] pb-2"><p>Deals in Tools and Home Improvement</p></div>
+           <!-- for img -->
+          <div class="w-[100%] h-[275px] box-border flex flex-row flex-wrap justify-between">
+            <img src="https://images-na.ssl-images-amazon.com/images/G/01/home/THILGMA/Holiday2022/Graphics/XCM_CUTTLE_1475305_2610205_379x304_1X_en_US._SY304_CB608600856_.jpg" alt="">
+          </div>
+          <div><p class="text-[#007185] text-[13px] hover:text-[#C7511F] hover:underline hover:cursor-pointer">Shop now</p></div>
+        </div>
+      </div>
+
+       <!-- box20 -->
+       <div class="bg-white h-[400px] w-[23%] pt-[20px] pb-[15px]">
+
+        <!-- main subdiv -->
+        <div class="px-[20px] flex flex-col justify-evenly  h-[100%]">
+          <!-- for head -->
+          <div class="text-[21px] font-semibold leading-[22px] pb-2"><p>Frequently repurchased in Beauty & Personal Care</p></div>
+           <!-- for img -->
+          <div class="w-[100%] h-[275px] box-border flex flex-row flex-wrap justify-between">
+            <img src="https://m.media-amazon.com/images/I/71syil90+KL._AC_SY195_.jpg" alt="">
+          </div>
+          <div><p class="text-[#007185] text-[13px] hover:text-[#C7511F] hover:underline hover:cursor-pointer">Shop now</p></div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+    <section class="h-[180px] w-[1343] bg-[#ffff] px-[20px] mt-5 flex justify-center items-center">
+        <div class="h-[126px] w-[100%] bg-[#ffff] flex flex-col justify-evenly items-center border-[1px] border-[#DDD] rounded-md">
+          <div class="text-[#000] text-[13px]">See personalized recommendations</div>
+          <div class="w-[230px] h-[28px]"><button class="bg-gradient-to-b from-[#ebc872] to-[#f7ba20] text-[12px] font-bold w-[230px] h-[28px] border-[1px] border-[#ffe093] rounded-md">Sign in</button></div>
+          <div class="text-[11px] text-[#000]">New customer? <a href="" class="text-[#007185] hover:text-[#C7511F]"> Start here.</a></div>
+        </div>
+    </section>
+
+    <section class="h-[49px] flex justify-center items-center bg-[#37475A] hover:bg-[#485769] hover:cursor-pointer" id="webtop">
+      <a href="#" class="text-[#FFF] text-[13px] ">Back to top</a>
+    </section>
+
+
+    <footer class="bg-[#232F3E] h-[1160px] flex items-center justify-center flex-col pt-[11rem]">
+      <div class="max-w-[1000px] flex">
+        <div class="w-[120px]">
+          <div class="text-[#FFF] text-[16px] font-[700] mt-[6px] mb-[14px]">Get to Know Us</div>
+          <ul class="text-[#DDD] text-[14px]">
+            <li class="hover:underline mb-[10px]"><a href="#">Careers</a></li>
+            <li class="hover:underline mb-[10px]"><a href="">Blog</a></li>
+            <li class="hover:underline mb-[10px]"><a href="">About Amazon</a></li>
+            <li class="hover:underline mb-[10px]"><a href="">Investor Relations</a></li>
+            <li class="hover:underline mb-[10px]"><a href="">Amazon Devices</a></li>
+            <li class="hover:underline mb-[10px]"><a href="">Amazon Science</a></li>
+          </ul>
+        </div>
+
+        <div class="w-[80px] px-[10px]"></div>
+
+        <div class="w-[164px]">
+          <div class="text-[#FFF] text-[16px] font-[700] mt-[6px] mb-[14px]">Make Money with Us</div>
+          <ul class="text-[#DDD] text-[14px]">
+            <li class="hover:underline mb-[10px]"><a href="#">Sell products on Amazon</a></li>
+            <li class="hover:underline mb-[10px]"><a href="">Sell on Amazon Business</a></li>
+            <li class="hover:underline mb-[10px]"><a href="">Sell apps on Amazon</a></li>
+            <li class="hover:underline mb-[10px]"><a href="">Become an Affiliate</a></li>
+            <li class="hover:underline mb-[10px]"><a href="">Advertise Your Products</a></li>
+            <li class="hover:underline mb-[10px]"><a href="">Self-Publish with Us</a></li>
+            <li class="hover:underline mb-[10px]"><a href="">Host an Amazon Hub</a></li>
+            <li class="hover:underline mb-[10px]"><a href=""> <span>›</span> See More Make Money with Us</a></li>
+          </ul>
+        </div>
+
+        <div class="w-[80px] px-[10px]"></div>
+
+        <div class="w-[202px] px-[10px]">
+          <div class="text-[#FFF] text-[16px] font-[700] mt-[6px] mb-[14px]">Amazon Payment Products</div>
+          <ul class="text-[#DDD] text-[14px]">
+            <li class="hover:underline mb-[10px]"><a href="#">Amazon Business Card</a></li>
+            <li class="hover:underline mb-[10px]"><a href="">Shop with Points</a></li>
+            <li class="hover:underline mb-[10px]"><a href="">Reload Your Balance</a></li>
+            <li class="hover:underline mb-[10px]"><a href="">Amazon Currency Converter</a></li>
+          </ul>
+        </div>
+
+        <div class="px-[10px] w-[150px]">
+          <div class="text-[#FFF] text-[16px] font-[700] mt-[6px] mb-[14px]">Let Us Help You</div>
+          <ul class="text-[#DDD] text-[14px]">
+            <li class="hover:underline mb-[10px]"><a href="#">Amazon and COVID-19</a></li>
+            <li class="hover:underline mb-[10px]"><a href="">Your Account</a></li>
+            <li class="hover:underline mb-[10px]"><a href="">Your Orders</a></li>
+            <li class="hover:underline mb-[10px]"><a href="">Shipping Rates & Policies</a></li>
+            <li class="hover:underline mb-[10px]"><a href="">Returns & Replacements</a></li>
+            <li class="hover:underline mb-[10px]"><a href="">Manage Your Content and Devices</a></li>
+            <li class="hover:underline mb-[10px]"><a href="">Amazon Assistant</a></li>
+            <li class="hover:underline mb-[10px]"><a href="">Help</a></li>
+          </ul>
+        </div>
+
+
+
+
+      </div>
+
+      <div class="border-b-[1px] mt-[40px] border-b-[#3a4553] w-full"></div>
+
+      <div class="flex w-[1000px] h-[68px] items-center text-[#DDD] justify-center mt-5">
+        <div class="w-[115px] h-[62px] px-[7px] hover:cursor-pointer"><img src="amazon_logo.png" class="w-[100%] h-[100%]" alt=""></div>
+        <div class="w-[80px]"></div>
+        <div class="flex w-[450px] items-center justify-around">
+          <div class="border-[1px] border-[#848688] py-[6px] px-[8px] pr-[12px] bg-transparent text-[12px] font-semibold hover:cursor-pointer"><i class="fa-solid fa-globe"></i> <span class="p-1">English</span></div>
+          <div class="w-[150px] border-[1px] border-[#848688] py-[6px] px-[8px] pr-[12px] bg-transparent text-[12px] font-semibold hover:cursor-pointer"><i class="fa-solid fa-dollar-sign"></i></i> <span class="p-1">USD - U.S. Dollar</span></div>
+          <div class="w-[150px] border-[1px] border-[#848688] py-[6px] px-[8px] pr-[12px] bg-transparent text-[12px] font-semibold flex justify-center items-center flex-wrap hover:cursor-pointer"><span class="w-[15px] h-[12px]"><img src="https://cdn.britannica.com/79/4479-050-6EF87027/flag-Stars-and-Stripes-May-1-1795.jpg" class="w-[15px] h-[12px]" alt=""></span> <span class="p-1">USD - U.S. Dollar</span></div>
+
+        </div>
+
+      </div>
+
+
+      <!-- last footer section -->
+
+      <div class="w-full bg-[#131A22] flex justify-center items-center mt-[30px] text-[12px] text-[#999] pt-6 pb-[15px]">
+        <div class="w-[1000px] h-[600px] bg-[#131A22] grid grid-cols-7 gap-4"> 
+          <!-- box1  -->
+          <div class="w-[105px] h-[81px] group px-[9px]">
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline  text-[#DDD]">Amazon Music</p>
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Stream millions</p>
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">of songs</p>
+          </div>
+
+          <!-- box2  -->
+          <div class="w-[105px] h-[81px] group px-[9px]">
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline  text-[#DDD]">Amazon Advertising</p>
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Find, attract, and</p>
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">engage customers</p>
+          </div>
+
+          <!-- box3  -->
+          <div class="w-[105px] h-[81px] group px-[9px]">
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline  text-[#DDD]">6pm</p>
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Score deals</p>
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">on fashion brands</p>
+          </div>
+
+           <!-- box4  -->
+           <div class="w-[105px] h-[81px] group px-[9px]">
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline  text-[#DDD]">AbeBooks</p>
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Books, art</p>
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">& collectibles</p>
+          </div>
+
+          <!-- box5  -->
+          <div class="w-[105px] h-[81px] group px-[9px]">
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline  text-[#DDD]">ACX </p>
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Audiobook Publishing</p>
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Made Easy</p>
+          </div>
+
+           <!-- box6  -->
+           <div class="w-[105px] h-[81px] group px-[9px]">
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline  text-[#DDD]">Sell on Amazon </p>
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Start a Selling</p>
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Account</p>
+          </div>
+
+           <!-- box7  -->
+           <div class="w-[105px] h-[81px] group px-[9px]">
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline  text-[#DDD]">Amazon Business</p>
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Everything For</p>
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Your Business</p>
+          </div>
+
+          <!-- box8  -->
+          <div class="w-[105px] h-[81px] group px-[9px]">
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline  text-[#DDD]">AmazonGlobal</p>
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Ship Orders</p>
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Internationally</p>
+          </div>
+
+           <!-- box9  -->
+           <div class="w-[105px] h-[81px] group px-[9px]">
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline  text-[#DDD]">Home Services</p>
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Experienced Pros</p>
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Happiness Guarantee</p>
+          </div>
+
+          <!-- box10  -->
+          <div class="w-[105px] h-[81px] group px-[9px]">
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline  text-[#DDD]">Amazon Ignite</p>
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Sell your original</p>
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Digital Educational</p>
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Resources</p>
+          </div>
+
+          <!-- box11  -->
+          <div class="w-[105px] h-[81px] group px-[9px]">
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline  text-[#DDD]">Amazon Web Services</p>
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Scalable Cloud</p>
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Computing Services</p>
+          </div>
+
+          <!-- box12  -->
+          <div class="w-[105px] h-[81px] group px-[9px]">
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline  text-[#DDD]">Audible</p>
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Listen to Books & Original</p>
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Audio Performances</p>
+          </div>
+
+           <!-- box13  -->
+           <div class="w-[105px] h-[81px] group px-[9px]">
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline  text-[#DDD]">Book Depository</p>
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Books With Free</p>
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Delivery Worldwide</p>
+          </div>
+
+           <!-- box14 -->
+           <div class="w-[105px] h-[81px] group px-[9px]">
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline  text-[#DDD]">Box Office Mojo</p>
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Find Movie</p>
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Box Office Data</p>
+          </div>
+
+          <!-- box15 -->
+          <div class="w-[105px] h-[81px] group px-[9px]">
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline  text-[#DDD]">ComiXology</p>
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Thousands of</p>
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Digital Comics</p>
+          </div>
+
+           <!-- box16 -->
+           <div class="w-[105px] h-[81px] group px-[9px]">
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline  text-[#DDD]">DPReview</p>
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Digital</p>
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Photography</p>
+          </div>
+
+           <!-- box17 -->
+           <div class="w-[105px] h-[81px] group px-[9px]">
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline  text-[#DDD]">Fabric</p>
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Sewing, Quilting</p>
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">& Knitting</p>
+          </div>
+
+           <!-- box17 -->
+           <div class="w-[105px] h-[81px] group px-[9px]">
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline  text-[#DDD]">Goodreads</p>
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Book reviews</p>
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">& recommendations</p>
+          </div>
+
+          <!-- box18 -->
+          <div class="w-[105px] h-[81px] group px-[9px]">
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline  text-[#DDD]">IMDb</p>
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Movies, TV</p>
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">&amp; Celebrities</p>
+          </div>
+
+          <!-- box19 -->
+          <div class="w-[105px] h-[81px] group px-[9px]">
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline  text-[#DDD]">IMDbPro</p>
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Get Info Entertainment</p>
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Professionals Need</p>
+          </div>
+
+          <!-- box20 -->
+          <div class="w-[105px] h-[81px] group px-[9px]">
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline  text-[#DDD]">Kindle Direct Publishing</p>
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Indie Digital & Print Publishing</p>
+            <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Made Easy</p>
+          </div>
+
+            <!-- box21 -->
+            <div class="w-[105px] h-[81px] group px-[9px]">
+              <p class="font-semibold group-hover:cursor-pointer group-hover:underline  text-[#DDD]">Prime Video Direct</p>
+              <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Video Distribution</p>
+              <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Made Easy</p>
+            </div>
+
+             <!-- box22 -->
+             <div class="w-[105px] h-[81px] group px-[9px]">
+              <p class="font-semibold group-hover:cursor-pointer group-hover:underline  text-[#DDD]">Shopbop</p>
+              <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Designer</p>
+              <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Fashion Brands</p>
+            </div>
+
+              <!-- box23 -->
+              <div class="w-[105px] h-[81px] group px-[9px]">
+                <p class="font-semibold group-hover:cursor-pointer group-hover:underline  text-[#DDD]">Woot!</p>
+                <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Deals and </p>
+                <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Shenanigans</p>
+              </div>
+
+                 <!-- box24 -->
+                 <div class="w-[105px] h-[81px] group px-[9px]">
+                  <p class="font-semibold group-hover:cursor-pointer group-hover:underline  text-[#DDD]">Zappos</p>
+                  <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Shoes &</p>
+                  <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Clothing</p>
+                </div>
+
+                  <!-- box25 -->
+                  <div class="w-[105px] h-[81px] group px-[9px]">
+                    <p class="font-semibold group-hover:cursor-pointer group-hover:underline  text-[#DDD]">Ring</p>
+                    <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Smart Home</p>
+                    <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Security Systems</p>
+                  </div>
+
+                      <!-- box26 -->
+                      <div class="w-[105px] h-[81px] group px-[9px]">
+                        <p class="font-semibold group-hover:cursor-pointer group-hover:underline  text-[#DDD]">eero WiFi</p>
+                        <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Stream 4K Video</p>
+                        <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">in Every Room</p>
+                      </div>
+
+                       <!-- box27 -->
+                       <div class="w-[105px] h-[81px] group px-[9px]">
+                        <p class="font-semibold group-hover:cursor-pointer group-hover:underline  text-[#DDD]">Blink</p>
+                        <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Smart Security</p>
+                        <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">for Every Home</p>
+                      </div>
+
+                       <!-- box28 -->
+                       <div class="w-[105px] h-[81px] group px-[9px] col-start-3">
+                        <p class="font-semibold group-hover:cursor-pointer group-hover:underline  text-[#DDD]">Neighbors App </p>
+                        <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Real-Time Crime</p>
+                        <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">& Safety Alerts</p>
+                      </div>
+
+                      <!-- box29 -->
+                      <div class="w-[152px] h-[81px] group px-[9px]">
+                        <p class="font-semibold group-hover:cursor-pointer group-hover:underline  text-[#DDD]">Amazon Subscription Boxes</p>
+                        <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Top subscription boxes -</p>
+                        <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">right to your door</p>
+                      </div>
+
+                        <!-- box30 -->
+                        <div class="w-[105px] h-[81px] group px-[9px]">
+                          <p class="font-semibold group-hover:cursor-pointer group-hover:underline  text-[#DDD]">PillPack</p>
+                          <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Pharmacy</p>
+                          <p class="font-semibold group-hover:cursor-pointer group-hover:underline ">Simplified</p>
+                        </div>
+        </div>
+    </div>
+
+        <div class="flex justify-center items-center h-[45px] pt-[10px] pb-[50px] bg-[#131A22] w-full">
+          <div class="flex flex-col justify-center items-center">
+            <ul class="flex flex-row text-[#DDD] justify-evenly items-center text-[12px]">
+              <li class="m-2 hover:cursor-pointer hover:underline">Conditions of Use</li>
+              <li class="m-2 hover:cursor-pointer hover:underline">Privacy Notice</li>
+              <li class="m-2 hover:cursor-pointer hover:underline">Your Ads Privacy Choices</li>
+            </ul>
+            <div class="text-[#DDD] text-[12px]">© 2023 Yuvraj Salte, Amazon.com, Inc. or its affiliates</div>
+          </div>
+        </div>
+
+    </footer>
+
+    <script src="Amazon.js"></script>
+
+
+  </body>
+</html>
